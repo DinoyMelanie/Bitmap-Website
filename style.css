@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.container-fluid ul li a {
+    transition: 0.2s ease-in-out;
+}
+
+.container-fluid ul li a:hover {
+    font-size: 18px;
+    border-bottom: 1px solid white;
+}
+
+.layer1 {
+    display: block;
+    padding: 20px;
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    color: white;
+}
+
+.layer1 h1 {
+    letter-spacing: 4;
+    font-size: 50px;
+}
+
+.layer1 p {
+    font-size: 25px;
+    line-height: 1.6;
+}
+
+.layer1 button {
+    font-size: 20px;
+}
+
+.layer1 button a {
+    text-decoration: none;
+    color: black;
+}
+
+.layer1 img {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.container1 {
+    background-color: #E5E4E2;
+    padding: 50px;
+}
+
+.container1 h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 50px;
+    height: 500px;
+}
+
+
+.bitmap-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 150px;
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+
+.image-container img {
+    max-width: 600px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.text-container {
+    max-width: 600px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.text-container h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.text-container p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.text-container button {
+    font-size: 20px;
+}
+
+.layer3 {
+    background-color: #E5E4E2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.layer3 img {
+    width: 800px;
+}
+
+.bitmap-questions{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    padding: 20px;
+    gap:20px;
+    background-color: #E5E4E2;
+    padding-bottom: 50px;
+    }
+
+.image-container1{
+    flex: 1;
+    max-width: 40%;
+}
+.image-container1 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-container1 {
+    flex: 1;
+    max-width: 50%;
+}
+.text-container1 h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.text-container1 p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.text-container1 button {
+    font-size: 20px;
+    width: 100px;
+}

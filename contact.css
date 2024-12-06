@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+body::after {
+    content: "";
+    background-image: url(https://media.istockphoto.com/id/1421126869/vector/halftone-noise-texture-background-comic-style-random-grain-pattern-round-particles-wallpaper.jpg?s=612x612&w=0&k=20&c=IT2tk1DPaNrGcllhCvZ5NIEaUPcxcH5Y7LSuQcR-wzo=);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+    height: 1300px;
+  }
+
+  
+.container-fluid ul li a {
+    transition: 0.2s ease-in-out;
+}
+
+.container-fluid ul li a:hover {
+    font-size: 18px;
+    border-bottom: 1px solid white;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+} 
+
+.intro h2 {
+    font-size: 55px;
+    font-weight: bold;
+    color: #0077b6;
+}
+
+.intro p {
+    font-size: 20px;
+}
+
+.boxRow {
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+}
+
+.icon {
+    font-size: 30px;
+    border: 2px solid darkgray;
+    border-radius: 15px;
+    padding: 10px;
+    width: 60px;
+}
+
+.box1, .box2, .box3, .box4 {
+    flex-direction: column;
+    width: 350px;
+    border: 2px solid darkgrey;
+    padding: 40px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.box1 h3, .box2 h3, .box3 h3, .box4 h3 {
+    margin-top: 50px;
+    color: #0077b6;
+}
+
+.box1 a, .box2 a, .box3 a, .box4 a {
+    color: black;
+}
+
+.faqs {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.faqs h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #0077b6;
+}
+
+.faqsQues {
+    margin-top: 20px;
+    margin-left: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+@media screen and (max-width: 1800px) {
+    .faqsQues {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0;
+    }
+}

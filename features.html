@@ -1,0 +1,192 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="features-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Bitmap Features</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <header class="p-3  sticky-top" style="background-color: #00b4d8;;" >
+        <div class="container-fluid">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="home.html" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none" style="margin-right: 20px;">
+              <h2 style="letter-spacing: 10;">Bitmap</h2>
+            </a>
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+              <li><a href="index.html" class="nav-link px-2 text-white">Home</a></li>
+              <li><a href="features.html" class="nav-link px-2 text-dark">Features</a></li>
+              <li><a href="contact.html" class="nav-link px-2 text-white">Contact</a></li>
+              <li><a href="about.html" class="nav-link px-2 text-white">About us</a></li>
+            </ul>
+    
+            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+              <input type="search" class="form-control form-control-dark text-bg-light rounded-pill" placeholder="Search..." aria-label="Search">
+            </form>
+    
+            <div class="text-end">
+              <button type="button" class="btn btn-dark me-2 rounded-pill bg-"><a href="login.html" style="text-decoration: none;color: white;">Login</a></button>
+              <button type="button" class="btn btn-warning rounded-pill"><a href="signup.html" style="text-decoration: none;color: black;">Sign-up</a></button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="sidebar">
+        <h2>On this page</h2>
+        <a href="#pixel">Pixels</a>
+        <a href="#resolution">Resolution</a>
+        <a href="#cdffc">Color depth, File format, and Compression</a>
+        <a href="#aspect">Aspect ratio</a>
+        <a href="#grid">Grid structure</a>
+        <a href="#image">Image editing and Pixel manipulation</a>
+        <a href="#trans">Transparency</a>
+        <a href="#anti">Anti-aliasing</a>
+        
+      </div>
+
+      <div class="container mt-4">
+      <div class="contentHeader">
+      <h2 style="color: #0077b6;"><b>Bitmap Basic Designed Features </b></h2><span id="pixel"></span>
+      <p style="margin-bottom: 30px;">Bitmap (also known as raster) images are composed of a grid of individual pixels,<br> 
+        each representing a color or shade. The basic features of bitmap image design are<b>:</b> </p>
+      </div>
+
+      <div class="pixel">
+      <div class="pixelTitle">
+      <h3><i class="fa-solid fa-quote-left"></i> Pixels <i class="fa-solid fa-quote-right"></i></h3>
+      <p> A bitmap image is made up of tiny, individual units called pixels (picture elements). 
+        <br>Each pixel has its own color and position within the grid.<bR>
+        The total number of pixels determines the image resolution.
+      </p>
+    </div>
+      <div id="carouselExampleIndicators" class="carousel slide" style="border-radius: 20px;">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <span id="resolution"></span>
+        </div>
+        <div class="carousel-inner" style="border-radius: 20px;height: 500px;">
+          <div class="carousel-item active">
+            <img src="https://miro.medium.com/v2/resize:fit:1400/1*azukPhgVgPqFbMm6wQ__sg.png" class="d-block w-100" alt="pic1">
+          </div>
+          <div class="carousel-item">
+            <img src="https://cdn.mos.cms.futurecdn.net/jbCNvTM4gwr2qV8X8fW3ZB.png" class="d-block w-100" alt="pic2">
+          </div>
+          <div class="carousel-item">
+            <img src="https://t3.ftcdn.net/jpg/08/18/07/60/360_F_818076000_P60RZCJU3zhiKeqvB33Z4mpTSkkgrSOs.jpg" class="d-block w-100" alt="pic3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      </div>
+
+      <div class="resolution">
+      <h3 style="font-size: 50px;"><i class="fa-solid fa-quote-left"></i> Resolution <i class="fa-solid fa-quote-right"></i></h3>
+     <p style="font-size: 20px;">Resolution refers to the number of pixels in an image, <br>typically expressed as width x height (e.g., 1920x1080 pixels).<br>
+        Higher resolution means more pixels, leading to finer detail but also larger file size. </p>
+        <img src="https://www.insight180.com/wp-content/uploads/2018/02/resolution-feature.jpg" alt="pic3" style="height: 650px;">
+        <span id="cdffc"></span>
+      </div>
+   
+    <div class="boxRow">
+      <div class="box1">
+    <h3 class="bg-info text-white"><i class="fa-solid fa-quote-left"></i> Color Depth <i class="fa-solid fa-quote-right"></i></h3>
+    <p>Color depth (or bit depth) defines the number of colors that can be represented in the image.</p>
+    <p>Common color depths:</p>
+    <ul>
+        <li>1-bit (black and white) </li>
+        <li>8-bit (256 colors)</li>
+        <li>24-bit (True color, approximately 16.7 million colors) </li>
+        <li>32-bit (includes an alpha channel for transparency)</li>
+    </ul>
+    </div>
+    <div class="box2">
+    <h3 class="bg-info text-white"><i class="fa-solid fa-quote-left"></i> File Format <i class="fa-solid fa-quote-right"></i></h3>
+    <p>Bitmap images come in various formats that define how the pixel data is stored.</p> 
+    <p>Common formats include: </p>
+    <ul> 
+        <li>BMP (Bitmap): A simple raster format, generally uncompressed.</li>
+        <li> JPEG: Compressed format for photographs, losing some quality in compression.</li>
+        <li> PNG: Supports lossless compression and transparency.</li>
+        <li>GIF: Limited to 256 colors, often used for simple graphics and animations. </li>
+    </ul>
+    </div>
+    <div class="box3">
+    <h3 class="bg-info text-white"><i class="fa-solid fa-quote-left"></i> Compression <i class="fa-solid fa-quote-right"></i></h3>
+    <p>File size can be decreased by compressing bitmap images.</p>
+    <p><br>Types of compression:</p>
+    <ul>
+        <li>Lossy Compression (e.g., JPEG): Reduces file size by discarding some image data, which can result in a loss of quality. </li>
+        <li>Lossless Compression (e.g., PNG): Reduces file size without losing any image data. </li>
+    </ul>
+    </div>
+    </div>
+    <span id="aspect"></span>
+    <div class="aspectRatio">
+    <h3 style="font-size: 50px; color: #0077b6;"><i class="fa-solid fa-quote-left"></i> Aspect Ratio <i class="fa-solid fa-quote-right"></i></h3>
+    <p style="font-size: 20px;"><span id="grid"></span> The aspect ratio is the proportional relationship between the image's width and height (e.g., 4:3 or 16:9).<br>
+       Maintaining the aspect ratio ensures that the image does not appear stretched or distorted when resized. </p> 
+    </div>
+
+    <div class="gridStructure">
+    <h3 style="font-size: 50px; color: #0077b6;"><i class="fa-solid fa-quote-left"></i> Grid Structure <i class="fa-solid fa-quote-right"></i></h3>
+    <p style="font-size: 20px;"></p><span id="image"></span>
+    Bitmap images have a regular grid structure, where each pixel occupies a specific location.<br>
+    The grid is typically square, but it can also be rectangular, depending on the image resolution. 
+    </div>
+
+    <div class="imageEdit">
+    <h3 style="font-size: 50px; color: #0077b6;"><i class="fa-solid fa-quote-left"></i> Image Editing and Pixel Manipulation <i class="fa-solid fa-quote-right"></i></h3>
+    <p style="font-size: 20px;"></p><span id="trans"></span>
+    Bitmap images can be edited by changing the color or value of individual pixels,
+    <br> such as with software like Photoshop, GIMP, or MS Paint.
+    </div>
+    
+    <div class="transparency">
+    <h3 style="font-size: 50px; color: #0077b6;"><i class="fa-solid fa-quote-left"></i> Transparency <i class="fa-solid fa-quote-right"></i></h3>
+    <p style="font-size: 20px;"> Some bitmap formats (like PNG and GIF) support transparency, <br>
+      where certain pixels can be completely transparent, 
+      <br>allowing the background to show through.</p><span id="anti"></span>
+    </div>
+
+    <div class="antiAlias">
+    <h3 style="font-size: 50px; color: #0077b6;"><i class="fa-solid fa-quote-left"></i> Anti-aliasing <i class="fa-solid fa-quote-right"></i></h3>
+    <p style="font-size: 20px;"> Anti-aliasing is a technique used to smooth the jagged edges of objects in a bitmap image, 
+      <br>making transitions between colors appear more gradual.</p>
+    </div>
+
+    <div class="advanced">
+    <h3 style="font-size: 50px; color: #0077b6;"><i class="fa-solid fa-quote-left"></i> Advanced Bitmap Designed Features <i class="fa-solid fa-quote-right"></i></h3>
+    <p style="font-size: 20px;"> Advanced bitmap designs refer to bitmap images and techniques that incorporate more complex features, technologies, or processes for producing, manipulating, or enhancing bitmap-based graphics. These advanced bitmap designs often go beyond simple pixel-based images and include high-level concepts such as compression, resolution enhancement, image manipulation, and the use of sophisticated image editing software.</p>
+    <span><button type="button" class="btn btn-info rounded-pill"><a href="login.html">Sign in to read more</a></button></span>
+    <h3 style="font-size: 50px; color: #0077b6;"><i class="fa-solid fa-quote-left"></i> High-Resolution Bitmap Images <i class="fa-solid fa-quote-right"></i></h3>
+    <p style="font-size: 20px;">High-resolution bitmap images are digital images with a large number of pixels in both width and height, resulting in finer detail, greater clarity, and higher visual quality. These images are typically used when precise detail is important, such as in professional photography, digital art, medical imaging, or large-format printing. The higher the resolution, the more pixels the image contains, leading to a higher level of detail and sharpness. </p>
+    <ul>
+      <li><b>Ultra-High-Resolution</b> bitmap images are digital images with a large number of pixels in both width and height, resulting in finer detail, greater clarity, and higher visual quality. These images are typically used when precise detail is important, such as in professional photography, digital art, medical imaging, or large-format printing. The higher the resolution, the more pixels the image contains, leading to a higher level of detail and sharpness.</li>
+      <li><b> Gigapixel Images</b> these images can contain billions of pixels, enabling detailed zoom-ins and analysis, often used in specialized fields like digital archives or fine art reproduction.</li>
+    </ul>
+    </div>
+</div>
+
+</body>
+</html>
